@@ -241,7 +241,8 @@ body {
   margin: 0 auto;
   margin-top: 48px;
 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms 
+  cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button:hover,
@@ -412,6 +413,8 @@ margin-right: 24px;
   align-items: center;
   justify-content: center;
   color: var(--color-logo);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 .cust-title /*H2*/ {
@@ -421,10 +424,7 @@ margin-right: 24px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title-secondary);
-  transition зі значенням border-color
-   250ms cubic-bezier(0.4, 0, 0.2, 1), 
-   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  }
 
 .button-cust:hover,
 .button-cust:focus {
